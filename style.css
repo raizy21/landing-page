@@ -1,0 +1,164 @@
+/* Reset Line */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; /* add font size */
+  background-color: #f2f2f2; /* a soothing background color*/
+}
+header {
+  padding: 3rem;
+  border-bottom: 2px solid black;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+header p {
+  font-size: 1.6rem;
+  color: darkblue;
+  font-style: italic;
+  padding: 1.5rem;
+}
+
+header p:hover {
+  text-decoration: underline;
+  color: yellowgreen;
+}
+
+main {
+  padding: 2rem;
+}
+
+main section {
+  padding: 1.2rem;
+}
+main section h2 {
+  font-size: 2rem;
+  color: yellowgreen;
+}
+
+main section p {
+  font-size: 1.2rem;
+  letter-spacing: 0.03rem;
+  margin-bottom: 2rem;
+  max-width: 80ch;
+  margin-left: 1rem;
+}
+
+section ul li {
+  font-size: 1.2rem;
+  letter-spacing: 0.08rem;
+  text-decoration: none;
+  list-style: none;
+  margin-left: 2rem;
+}
+
+section img {
+  width: 4rem;
+  height: 5rem;
+  object-fit: cover;
+  border-style: solid;
+  margin: 0.2rem;
+}
+
+label {
+  font-weight: bold;
+  color: #333;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 1rem;
+  border: 1px solid #cec;
+}
+
+button {
+  font-size: 2rem;
+  letter-spacing: 1rem;
+}
+
+input:hover,
+textarea:hover,
+button:hover {
+  background-color: #cec;
+}
+
+footer {
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Medium devices (landscape tablets, 768px to 992px) */
+@media only screen and (max-width: 992px) {
+  /* CSS rules for medium screens */
+  header h1 {
+    color: yellow;
+  }
+
+  header {
+    padding: 2rem;
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+  }
+
+  header p {
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+  main section {
+    padding: 1rem;
+  }
+  main section h2 {
+    font-size: 1.2rem;
+  }
+
+  main section p {
+    font-size: 0.8rem;
+    letter-spacing: 0.02rem;
+    margin-bottom: 1rem;
+    max-width: 60ch;
+    margin-left: 0.5rem;
+  }
+
+  section ul li {
+    font-size: 0.8rem;
+    letter-spacing: 0.02rem;
+    margin-left: 1rem;
+  }
+
+  section img {
+    width: 8rem;
+    height: 9rem;
+    margin: 0.1rem;
+  }
+
+  input,
+  textarea,
+  button {
+    width: 50%;
+    padding: 0.2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  button {
+    font-size: 1rem;
+    width: 10%;
+  }
+}
